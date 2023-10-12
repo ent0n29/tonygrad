@@ -1,5 +1,7 @@
 from graphviz import Digraph
 
+## use this graph to represent the neural net
+
 def trace(root):
   # builds a set of all nodes and edges in a graph
   nodes, edges = set(), set()
