@@ -11,7 +11,7 @@ setuptools.setup(
     description="A tiny scalar-valued autograd engine with a small PyTorch-like neural network library on top.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ent0n29/micrograd",
+    url="https://github.com/ent0n29/tonygrad",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
