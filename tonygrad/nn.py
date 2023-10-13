@@ -1,5 +1,5 @@
 import random
-from micrograd.engine import Value
+from tonygrad.engine import Value
 
 
 class Neuron:
