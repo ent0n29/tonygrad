@@ -1,4 +1,4 @@
-# neural networks from zero to hero
+# micrograd
 
 ## following karpathy lessons on neural networks
 
