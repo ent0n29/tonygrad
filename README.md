@@ -24,6 +24,8 @@ pip install tonygrad
 Below there is a simple example showing a number of possible supported operations:
 
 ```python
+from tonygrad.engine import Value
+
 """tanh() VERSION"""
 
 # inputs x1,x2
