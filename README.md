@@ -10,6 +10,7 @@ As it turns out, 90% of what you need for neural networks are a decent autograd/
  What's next? Bulding a Tensor library?
  
  Maybe.
+ 
  Thanks [karpathy/micrograd](https://github.com/karpathy/micrograd) for your lessons :).
 
 ### Installation
