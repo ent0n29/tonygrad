@@ -1,6 +1,6 @@
 # tonygrad
 
-![yeahhhhh](yeah.png)
+![yeahhhhh](https://github.com/ent0n29/tonygrad/raw/main/yeah.png)
  
  A tiny scalar-valued autograd engine with a small PyTorch-like neural network library on top.  Implements backpropagation (reverse-mode autodiff) over a dynamically built DAG.
  The DAG only operates over scalar values, so e.g. we chop up each neuron into all of its individual tiny adds and multiplies. However, this is enough to build up entire deep neural nets doing binary classification, as the demo notebook shows.
