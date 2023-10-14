@@ -7,7 +7,7 @@
  
 As it turns out, 90% of what you need for neural networks are a decent autograd/tensor library. Throw in an optimizer, a data loader, and some compute, and you have all you need.
 
- What's next? Bulding a Tensor library?
+ What's next? Building a Tensor library?
  
  Maybe.
  
