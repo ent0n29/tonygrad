@@ -4,8 +4,11 @@
  
  A tiny scalar-valued autograd engine with a small PyTorch-like neural network library on top.  Implements backpropagation (reverse-mode autodiff) over a dynamically built DAG.
  The DAG only operates over scalar values, so e.g. we chop up each neuron into all of its individual tiny adds and multiplies. However, this is enough to build up entire deep neural nets doing binary classification, as the demo notebook shows.
- As it turns out, 90% of what you need for neural networks are a decent autograd/tensor library. Throw in an optimizer, a data loader, and some compute, and you have all you need.
- What's next? Bulding a Tensor library? 
+ 
+As it turns out, 90% of what you need for neural networks are a decent autograd/tensor library. Throw in an optimizer, a data loader, and some compute, and you have all you need.
+
+ What's next? Bulding a Tensor library?
+ 
  Maybe.
  Thanks [karpathy/micrograd](https://github.com/karpathy/micrograd) for your lessons :).
 
