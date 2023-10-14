@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="tonygrad",
-    version="1.1.1",
+    version="1.1.2",
     author="Antonio Stano",
     author_email="stanoantonio29@gmail.com",
     description="A tiny scalar-valued autograd engine with a small PyTorch-like neural network library on top.",
