@@ -49,13 +49,13 @@ from tonygrad.trace_graph import draw_dot, trace
 draw_dot(o)
 ```
 
-![2d neural net](output.svg)
+![2d neural net](https://github.com/ent0n29/tonygrad/raw/main/output.svg)
 
 ### Training a neural net
 
 The notebook `demo.ipynb` provides a full demo of training an 2-layer neural network (*MLP*) binary classifier. This is achieved by initializing a neural net from `tonygrad.nn` module, implementing a simple svm "max-margin" binary classification loss and using *stochastic gradient descent* for optimization. As shown in the notebook, using a 2-layer neural net with two 16-node hidden layers we achieve the following decision boundary on the moon dataset:
 
-![2d neural net](decision_boundary.png)
+![2d neural net](https://github.com/ent0n29/tonygrad/raw/main/decision_boundary.png)
 
 ### License
 
